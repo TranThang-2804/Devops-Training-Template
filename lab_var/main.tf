@@ -1,7 +1,7 @@
 locals {
   lab_file = {
     "lab01": local.lab01,
-    "sleepmode": local.lab02
+    "lab02": local.lab02
   }
 }
 

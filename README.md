@@ -1,9 +1,16 @@
 I. Setup credential for terraform
 
-create a .env file at the root folder with this environment:
+Create a profile named FADevOps with the required credentials
 
-ACCESS_KEY=<Your Access Key>
-SECRET_KEY=<Your Secret Key>
+By default, these files are located at $HOME/.aws/config and $HOME/.aws/credentials on Linux and macOS, and "%USERPROFILE%\.aws\config" and "%USERPROFILE%\.aws\credentials" on Windows.
+
+Example:
+On Linux/Macos:
+in the file $HOME/.aws/config, add the profile for this course.
+
+[FADevOps]
+aws_access_key_id = <Your Access Key>
+aws_secret_access_key = <Your Profile Key>
 
 II. To write the terraform code:
 
