@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -a # Enable automatic exporting of variables
-source .env # Load environment variables from .env file
 
 LAB_FILE=$1
 
