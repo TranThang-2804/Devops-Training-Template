@@ -10,14 +10,6 @@ locals {
   global_tags           = module.vars.tags
 }
 
-variable "access_key" {
-  type = string
-}
-
-variable "secret_key" {
-  type = string
-}
-
 variable "lab_file" {
   type = string
   description = "The lab variable file to run"
